@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POWERMETER - Análise</title>
+    <link rel="stylesheet" href="pagina.component.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span>⏻</span>
+            <h1>POWERMETER</h1>
+        </div>
+    </header>
+
+    <section class="conteudo">
+        <h2>Digite os componentes do seu PC e<br> deixei que a gente faz o resto.</h2>
+
+        <form class="formulario">
+
+            <label>Tipo de dispositivo</label>
+            <div class="radio-group">
+                <label><input type="radio" name="tipo" checked> Desktop</label>
+                <label><input type="radio" name="tipo"> Notebook</label>
+            </div>
+
+            <select>
+                <option>Notebook/PC</option>
+            </select>
+
+            <label>Sistema Operacional</label>
+            <select>
+                <option>Windows/Linux/macOS</option>
+            </select>
+
+            <label>Processador (CPU)</label>
+            <select>
+                <option>Intel/AMD/Apple</option>
+            </select>
+
+            <label>Modelo do processador</label>
+            <input type="text" placeholder="">
+
+            <label>Placa de Vídeo (GPU)</label>
+            <div class="radio-group">
+                <label><input type="radio" name="gpu" checked> Dedicada</label>
+                <label><input type="radio" name="gpu"> Integrada</label>
+            </div>
+
+            <label>Modelo da placa de vídeo</label>
+            <input type="text">
+
+            <label>Memória RAM</label>
+            <select>
+                <option>Escolha a capacidade</option>
+            </select>
+
+            <label>Tipo de RAM</label>
+            <select>
+                <option>DDR3 / DDR4 / DDR5</option>
+            </select>
+
+            <label>Tipo de armazenamento</label>
+            <select>
+                <option>SSD / HD / NVMe</option>
+            </select>
+
+            <label>Capacidade total</label>
+            <select>
+                <option>Selecione</option>
+            </select>
+
+            <p class="aviso">
+                Os dados inseridos são utilizados apenas para gerar sua análise de desempenho<br>
+                e não são armazenados ou compartilhados.
+            </p>
+
+            <div class="botoes">
+                <button type="reset" class="limpar">Limpar</button>
+                <button type="submit" class="analisar">Analisar</button>
+            </div>
+
+        </form>
+    </section>
+
+    <footer>
+        <nav>
+            <a href="#">Loja</a>
+            <a href="#">Recomendações</a>
+            <a href="#">Blog</a>
+        </nav>
+    </footer>
+
+</body>
+</html>

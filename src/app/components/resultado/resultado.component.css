@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    background: linear-gradient(#001700, #0c3d0a);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 25px;
+    color: #00ff4c;
+}
+.logo span {
+    font-size: 40px;
+}
+.logo h1 {
+    font-size: 26px;
+}
+
+/* Títulos */
+.conteudo h2 {
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.descricao {
+    margin-top: 10px;
+    opacity: 0.9;
+    font-size: 14px;
+}
+
+/* Score box */
+.score-box {
+    background: #00ff4c;
+    color: black;
+    width: 180px;
+    padding: 15px;
+    margin: 25px auto 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 0 15px #00ff4c;
+}
+.score {
+    font-size: 28px;
+}
+
+.alto {
+    color: #ff7f00;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.indicacao {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Tabela */
+.tabela {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.tabela th {
+    padding: 12px 0;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    font-weight: bold;
+}
+.tabela td {
+    padding: 12px 5px;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.tabela tr:last-child td {
+    border-bottom: none;
+}
+
+/* Botão */
+.refazer {
+    padding: 12px 30px;
+    background: #777;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.refazer:hover {
+    background: #666;
+}
+
+/* Nota final */
+.nota-final {
+    font-size: 11px;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+/* Rodapé */
+footer {
+    background: #5e816a3d;
+    margin-top: 40px;
+    padding: 15px 0;
+}
+footer a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    color: #00ff4c;
+}

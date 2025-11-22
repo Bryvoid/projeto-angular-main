@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #000000 20%, #003300 100%);
+    color: #fff;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    padding: 30px 0;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.power-icon {
+    font-size: 40px;
+    color: #00ff44;
+}
+
+.logo-text {
+    font-size: 26px;
+    font-weight: 600;
+    color: #00ff44;
+}
+
+/* Content */
+.content {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.description {
+    line-height: 1.6;
+    max-width: 650px;
+    margin: 0 auto;
+    color: #bfffbf;
+    font-size: 15px;
+}
+
+/* Power Button */
+.analyze-section {
+    margin-top: 40px;
+}
+
+.analyze-text {
+    color: #00ff55;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.power-button {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    background: radial-gradient(circle, rgb(0, 0, 0) 5%, #000 70%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.power-button span {
+    font-size: 70px;
+    color: #00ff55;
+}
+
+.power-button:hover {
+    transform: scale(1.05);
+}
+
+/* Features */
+.features {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.feature-item {
+    text-align: center;
+    width: 150px;
+}
+
+.feature-item {
+    width: 50px;
+    filter: brightness(0) invert(1);
+}
+
+.feature-item {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #e0ffe0;
+}
+
+.feature-item1 {
+font-size: 30px;
+}
+
+.feature-item2 {
+font-size: 30px;
+}
+
+.feature-item3 {
+font-size: 30px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 70px;
+    background: rgba(60, 60, 60, 0.25);
+    padding: 18px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer a {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #00ff55;
+}
