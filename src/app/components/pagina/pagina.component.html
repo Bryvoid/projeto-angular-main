@@ -26,22 +26,28 @@
                 <label><input type="radio" name="tipo"> Notebook</label>
             </div>
 
-            <select>
+            <label for="1">Tipo de Maquina</label>
+            <select id="1">
                 <option>Notebook/PC</option>
+                <option>Acer Nitro V15</option>
             </select>
 
-            <label>Sistema Operacional</label>
-            <select>
+            <label for="2">Sistema Operacional</label>
+            <select id="2">
                 <option>Windows/Linux/macOS</option>
+                <option>Windows</option>
             </select>
 
-            <label>Processador (CPU)</label>
-            <select>
+            <label for="3">Processador (CPU)</label>
+            <select id="3">
                 <option>Intel/AMD/Apple</option>
+                <option>Intel</option>
             </select>
 
-            <label>Modelo do processador</label>
-            <input type="text" placeholder="">
+            <label for="4">Modelo do processador</label>           
+            <select id="4">
+            <option>AMD Ryzen 5</option>
+            </select>
 
             <label>Placa de Vídeo (GPU)</label>
             <div class="radio-group">
@@ -50,26 +56,39 @@
             </div>
 
             <label>Modelo da placa de vídeo</label>
-            <input type="text">
+            <input type="text" placeholder="Modelo">
 
-            <label>Memória RAM</label>
-            <select>
+            <label for="6">Memória RAM</label>
+            <select id="6">
                 <option>Escolha a capacidade</option>
+                <option>8G</option>
+                <option>16G</option>
+                <option>32G</option>
+                <option>64G</option>
             </select>
 
-            <label>Tipo de RAM</label>
-            <select>
+            <label for="7">Tipo de RAM</label>
+            <select id="7">
                 <option>DDR3 / DDR4 / DDR5</option>
+                <option>DDR3</option>
+                <option>DDR4</option>
+                <option>DDR5</option>
             </select>
 
-            <label>Tipo de armazenamento</label>
-            <select>
+            <label for="8">Tipo de armazenamento</label>
+            <select id="8">
                 <option>SSD / HD / NVMe</option>
+                <option>SSD</option>
+                <option>HD</option>
+                <option>NVMe</option>
             </select>
 
-            <label>Capacidade total</label>
-            <select>
+            <label for="9">Capacidade total</label>
+            <select id="9">
                 <option>Selecione</option>
+                <option>500G</option>
+                <option>1T</option>
+                <option>2T</option>
             </select>
 
             <p class="aviso">
@@ -78,8 +97,8 @@
             </p>
 
             <div class="botoes">
-                <button type="reset" class="limpar">Limpar</button>
-                <button type="submit" class="analisar">Analisar</button>
+                <button type="reset" class="limpar" routerLink="/">Voltar</button>
+                <button type="submit" class="analisar" routerLink="/resultado">Analisar</button>
             </div>
 
         </form>

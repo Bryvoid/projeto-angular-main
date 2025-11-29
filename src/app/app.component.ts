@@ -10,7 +10,7 @@ import { ResultadoComponent } from './components/resultado/resultado.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, LoginComponent, PaginaComponent, ResultadoComponent],
+  imports: [RouterOutlet,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

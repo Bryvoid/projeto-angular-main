@@ -7,7 +7,6 @@ body {
     text-align: center;
 }
 
-/* Logo */
 .logo {
     display: flex;
     justify-content: center;
@@ -22,7 +21,6 @@ body {
     font-size: 40px;
 }
 
-/* Texto principal */
 .conteudo h2 {
     margin-top: 20px;
     font-size: 20px;
@@ -30,7 +28,6 @@ body {
     font-weight: bold;
 }
 
-/* Formulário */
 .formulario {
     width: 90%;
     max-width: 450px;
@@ -40,14 +37,12 @@ body {
     gap: 10px;
 }
 
-/* Labels */
 .formulario label {
     text-align: left;
     margin-top: 10px;
     font-size: 14px;
 }
 
-/* Select e Inputs */
 .formulario select,
 .formulario input {
     width: 100%;
@@ -59,7 +54,6 @@ body {
     margin-bottom: 5px;
 }
 
-/* Radios */
 .radio-group {
     display: flex;
     justify-content: center;
@@ -67,14 +61,12 @@ body {
     margin: 5px 0 10px;
 }
 
-/* Aviso */
 .aviso {
     margin-top: 15px;
     font-size: 12px;
     opacity: 0.8;
 }
 
-/* Botões */
 .botoes {
     display: flex;
     justify-content: center;
@@ -109,7 +101,6 @@ body {
     background: #00dd40;
 }
 
-/* Rodapé */
 footer {
     background: #5e816a3d;
     margin-top: 40px;

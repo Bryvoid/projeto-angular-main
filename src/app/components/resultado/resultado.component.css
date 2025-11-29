@@ -6,7 +6,6 @@ body {
     color: white;
 }
 
-/* Logo */
 .logo {
     display: flex;
     justify-content: center;
@@ -22,7 +21,6 @@ body {
     font-size: 26px;
 }
 
-/* Títulos */
 .conteudo h2 {
     margin-top: 20px;
     font-size: 26px;
@@ -35,7 +33,6 @@ body {
     font-size: 14px;
 }
 
-/* Score box */
 .score-box {
     background: #00ff4c;
     color: black;
@@ -62,7 +59,6 @@ body {
     font-size: 14px;
 }
 
-/* Tabela */
 .tabela {
     width: 90%;
     max-width: 900px;
@@ -87,7 +83,6 @@ body {
     border-bottom: none;
 }
 
-/* Botão */
 .refazer {
     padding: 12px 30px;
     background: #777;
@@ -102,14 +97,12 @@ body {
     background: #666;
 }
 
-/* Nota final */
 .nota-final {
     font-size: 11px;
     opacity: 0.7;
     margin-top: 20px;
 }
 
-/* Rodapé */
 footer {
     background: #5e816a3d;
     margin-top: 40px;
